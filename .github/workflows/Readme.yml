@@ -32,6 +32,8 @@ jobs:
           plugin_habits_languages_threshold: 0%
           plugin_introduction: yes
           plugin_introduction_title: yes
+          plugin_introduction_text: >
+            Hello! I'm Anantha Krishnan, a passionate software engineer specializing in Java and backend development. I enjoy building scalable systems and solving complex challenges with technologies like Spring Boot and cloud platforms. Always eager to learn and grow, I'm committed to writing clean, efficient code and collaborating with teams to deliver impactful solutions.
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_lines: yes
