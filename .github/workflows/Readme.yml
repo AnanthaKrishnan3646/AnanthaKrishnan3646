@@ -14,10 +14,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: AnanthaKrishnan3646
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header
           config_timezone: Asia/Calcutta
           plugin_calendar: yes
           plugin_calendar_limit: 1
@@ -29,6 +30,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: AnanthaKrishnan3646
           template: classic
@@ -49,6 +51,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: AnanthaKrishnan3646
           template: classic
@@ -64,6 +67,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: AnanthaKrishnan3646
           template: classic
@@ -81,6 +85,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: AnanthaKrishnan3646
           template: classic
